@@ -2,37 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
+    <div class="conteudo-inteiro">
+        <div class="imagem">
+            <img src="./img/instagram-celular.png" alt="imagem">
         </div>
-        <div class="instagram-continue">
+        <div class="content">
             <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+                <img src="./img/instagram-logo.png" alt="logo do instagram">
+                <input type="text" name="userName" class="login" placeholder="Phone number, username, or email">
+                <input type="password" name="password" class="login" placeholder="Password">
+                <button class="login">Log In</button>
+                <div class="or">
+                    <div class="or-lines"></div>
+                    <p >OR</p>
+                    <div class="or-lines"></div>
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
+                <p id="login-facebook">Log in with Facebook</p>
+                <a href="#">
+                    <p>Forgot password?</p>
+                </a>
             </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
+            <div class="group" id="cadastro">
+                <p>Don't have an account? <a href="#" class="instagram-signup">Sing up</a></p>
             </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
+            <div class="group2">
+                <p>Get the app.</p>
                 <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+                    <a href="#" class="download-option"></a>
+                    <a href="#" class="download-option"></a>
                 </div>
             </div>
         </div>
